@@ -9,7 +9,7 @@ A simple link extractor written in python. I used beautifulSoup and requests mod
 
 # Instilling
 
-> pip3 install bs4
+''' pip3 install bs4'''
 
 > pip3 install requests
 
