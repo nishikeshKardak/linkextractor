@@ -2,7 +2,7 @@ import requests
 import bs4
 import urllib
 
-web_page = input("Enter the url or link of webpage that you wish to extract")
+web_page = input("Enter the url or link of webpage that you want to extract")
 
 res = requests.get('web_page')
 page = res.text
