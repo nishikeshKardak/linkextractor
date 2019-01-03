@@ -7,4 +7,11 @@ A simple link extractor written in python. I used beautifulSoup and requests mod
 - BeautifulSoup
 - Requests
 
+# Instilling
+
+'pip3 install bs4'
+
+'pip3 install requests'
+
 # License 
+This project is licensed under the MIT License.
