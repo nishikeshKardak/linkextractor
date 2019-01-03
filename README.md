@@ -8,9 +8,13 @@ A simple link extractor written in python. I used beautifulSoup and requests mod
 - Requests
 
 # Instilling
+Download latest python version from 
+<python.org>
 
-''' pip3 install bs4'''
+Install module beautifulSoup
+> pip3 install bs4
 
+Install module requests
 > pip3 install requests
 
 # License 
