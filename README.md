@@ -9,9 +9,9 @@ A simple link extractor written in python. I used beautifulSoup and requests mod
 
 # Instilling
 
-'pip3 install bs4'
+> pip3 install bs4
 
-'pip3 install requests'
+> pip3 install requests
 
 # License 
 This project is licensed under the MIT License.
