@@ -7,7 +7,7 @@ A simple link extractor written in python. I used beautifulSoup and requests mod
 - BeautifulSoup
 - Requests
 
-# Instilling
+# Installing
 Download latest python version from 
 <https://www.python.org>
 
