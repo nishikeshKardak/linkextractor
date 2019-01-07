@@ -4,7 +4,7 @@ import urllib
 
 web_page = input("Enter the url or link of webpage that you want to extract")
 
-res =  requests.get('web_page')
+res = requests.get('web_page')
 page = res.text
 
 #function for taking next target file
