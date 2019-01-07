@@ -1,12 +1,12 @@
-import bs4
+from bs4 import BeautifulSoup
 import requests
 import re
 
-web_page = input("Enter the url or link of webpage that you want to extract")
+url = "https://www.google.com"
+html_doc = requests.get(url).text
 
-res = requests.get('web_page')
-page = res.text
 
+soup = BeautifulSoup(html_doc, 'html.parser')
 
 for link in soup.find_all('a'):
     print(link.get('href'))
