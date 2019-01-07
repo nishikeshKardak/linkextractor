@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
-url = "https://www.google.com"
+url = input("Enter the url ")
 html_doc = requests.get(url).text
 
 
